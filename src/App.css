@@ -1,0 +1,85 @@
+
+.btns{
+    margin-top: 1rem;
+}
+
+.fa-moon{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.dark-input{
+    background-color: #192734;
+    color: #fff;
+    border: 1px solid #40485f;
+}
+
+.light-input{
+    background-color: #fff;
+    color: black;
+}
+.dark-input:focus, .dark-input:active{
+    background-color: #192734;
+    color: #fff;
+}
+
+.light-input:focus, .light-input:active{
+    background-color: #fff;
+    color: black;
+}
+.dark-input::placeholder{
+    color: white;
+
+}
+.light-input::placeholder{
+    color: black;
+}
+
+.fa-solid{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+
+.container-contact{
+    max-width: 50rem;
+    margin: 7rem auto 7rem auto;
+}
+
+.alert{
+    position: absolute;
+    top: 5.5vh;
+    left: 50vw;
+    transform: translate(-50%,50%);
+}
+
+/* .navbar-toggler-icon{
+    background-color: #fff;
+} */
+.footer-container{
+    position: relative;
+}
+.footerStyle{
+    /* background-color: rgb(114, 114, 114); */
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-brand{
+    font-weight: 900;
+}
+.t,.n{
+    color: rgb(255, 67, 67);
+}
+
+.n{
+    color: rgb(78, 81, 255);
+}
+.find:disabled{
+    background-color: #7c7c7c59;
+}
+
+.heading-para{
+    font-size: 16px;
+}
