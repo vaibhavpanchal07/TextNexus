@@ -6,8 +6,8 @@ export default function Footer({mode}) {
     <div className="footer-container">
         <footer className={`bg-${mode} footerStyle text-center text-lg-start`}>
         <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-            © 2023 Copyright 
-            <Link className={`text-${mode}`} to="/"> TextNexus.io</Link>
+            © 2023 Copyright <br/>
+            Created by Vaibhav Panchal ❤️
         </div>
     </footer>
     </div>
